@@ -1,0 +1,35 @@
+{
+  "home": {
+    "title": "History of Guatemala",
+    "description": "Explore the rich history of Guatemala, from ancient civilizations to modern times."
+  },
+  "about": {
+    "title": "About Guatemala's History",
+    "description": "Guatemala has a rich history, with ancient Mayan civilizations, Spanish colonization, and a history of civil conflict and resilience."
+  },
+  "timeline": {
+    "title": "Timeline of Guatemala's History",
+    "events": [
+      {
+        "year": "300-900 AD",
+        "event": "The height of the Maya civilization, with major cities like Tikal flourishing."
+      },
+      {
+        "year": "1524",
+        "event": "The Spanish conquest of Guatemala begins, led by Pedro de Alvarado."
+      },
+      {
+        "year": "1821",
+        "event": "Guatemala declares independence from Spain as part of the United Provinces of Central America."
+      },
+      {
+        "year": "1960-1996",
+        "event": "Guatemala’s Civil War, marked by violence, human rights abuses, and the struggle for indigenous rights."
+      },
+      {
+        "year": "1996",
+        "event": "The Peace Accords are signed, ending the Guatemalan Civil War and bringing a fragile peace."
+      }
+    ]
+  }
+}
