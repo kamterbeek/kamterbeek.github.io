@@ -8,10 +8,25 @@
 
 /* Body and Background */
 body {
-  background-color: #f4f4f4;
+ background-image: url('./desktop/CM1040/flag.png'); /* Correct path to your image */
+  background-size: cover;      /* Ensures the image covers the whole page */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed;/* Keeps the background image fixed when scrolling */
   color: #333;
   line-height: 1.6;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+/* Center Heading and Paragraphs */
+h1, p {
+  text-align: center;       /* Horizontally centers the text */
+  margin: 10px 0;           /* Adds some space around the text */
 }
 
 /* Header Styles */
