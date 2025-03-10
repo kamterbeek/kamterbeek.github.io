@@ -7,13 +7,18 @@
 </head>
 <body>
     <h1>Guatemalan Presidents</h1>
-    <ul id="presidents"></ul>
+    <ul id="presidents"></ul> <!-- Fixed ID here -->
 
     <script>
-        fetch('https://yourusername.github.io/kamterbeek/presidents.json')
-            .then(response => response.json())
+        fetch('https://yourusername.github.io/kamterbeek/presidents.json') // Ensure this URL is correct
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
             .then(data => {
-                const list = document.getElementById('presidents-list');
+                const list = document.getElementById('presidents'); // Fixed ID reference
                 data.presidents.forEach(president => {
                     const listItem = document.createElement('li');
                     listItem.textContent = `${president.name} (${president.term_start} - ${president.term_end})`;
