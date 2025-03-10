@@ -7,10 +7,10 @@
 </head>
 <body>
     <h1>Guatemalan Presidents</h1>
-    <ul id="presidents-list"></ul>
+    <ul id="presidents"></ul>
 
     <script>
-        fetch('https://yourusername.github.io/repository-name/guatemala_presidents.json')
+        fetch('https://yourusername.github.io/kamterbeek/presidents.json')
             .then(response => response.json())
             .then(data => {
                 const list = document.getElementById('presidents-list');
