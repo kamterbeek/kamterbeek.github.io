@@ -10,22 +10,51 @@
 
     <header>
         <h1>Internet Service Providers in Guatemala</h1>
-        <li><a href="index.html">Home</a></li>
-            <li><a href="isp.html">Learn About ISPs</a></li>
-            <li><a href="publicwifi.html">Learn About Public WiFi</a></li>
-            <li><a href="history.html">General History</a></li>
-            <li><a href="presidents.html">Presidents</a></li>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="isp.html">Learn About ISPs</a></li>
+                <li><a href="publicwifi.html">Learn About Public WiFi</a></li>
+                <li><a href="history.html">General History</a></li>
+                <li><a href="presidents.html">Presidents</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <h2>History of ISPs in Guatemala</h2>
         <p>This page provides an overview of the early Internet Service Providers (ISPs) in Guatemala and their role in internet development.</p>
         
-        <div id="isp-list"></div> <!-- This will display ISP data from JSON -->
-        
+        <div id="history-container"></div> <!-- ISP History will be displayed here -->
+
         <button onclick="window.location.href='publicwifi.html'">Next: Public WiFi</button>
     </main>
 
-    <script src="script.js"></script> <!-- JavaScript file -->
+    <script>
+        fetch('https://yourusername.github.io/kamterbeek/history.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('history-container');
+                
+                data.history.forEach(period => {
+                    const decadeDiv = document.createElement('div');
+                    decadeDiv.classList.add('decade');
+                    
+                    const title = document.createElement('h2');
+                    title.textContent = period.decade;
+                    decadeDiv.appendChild(title);
+                    
+                    period.events.forEach(event => {
+                        const eventDiv = document.createElement('div');
+                        eventDiv.classList.add('event');
+                        eventDiv.innerHTML = `<strong>${event.year}:</strong> ${event.description}`;
+                        decadeDiv.appendChild(eventDiv);
+                    });
+
+                    container.appendChild(decadeDiv);
+                });
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    </script>
 </body>
 </html>
