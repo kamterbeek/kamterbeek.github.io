@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guatemalan Presidents</title>
+</head>
+<body>
+    <h1>Guatemalan Presidents</h1>
+    <ul id="presidents-list"></ul>
+
+    <script>
+        fetch('https://yourusername.github.io/repository-name/guatemala_presidents.json')
+            .then(response => response.json())
+            .then(data => {
+                const list = document.getElementById('presidents-list');
+                data.presidents.forEach(president => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${president.name} (${president.term_start} - ${president.term_end})`;
+                    list.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    </script>
+</body>
+</html>
