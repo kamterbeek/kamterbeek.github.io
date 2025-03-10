@@ -1,0 +1,59 @@
+{
+  "presidents": [
+    {
+      "name": "Jorge Serrano Elías",
+      "term_start": "1991-01-14",
+      "term_end": "1993-06-01"
+    },
+    {
+      "name": "Ramiro de León Carpio",
+      "term_start": "1993-06-06",
+      "term_end": "1996-01-14"
+    },
+    {
+      "name": "Álvaro Arzú",
+      "term_start": "1996-01-14",
+      "term_end": "2000-01-14"
+    },
+    {
+      "name": "Alfonso Portillo",
+      "term_start": "2000-01-14",
+      "term_end": "2004-01-14"
+    },
+    {
+      "name": "Óscar Berger",
+      "term_start": "2004-01-14",
+      "term_end": "2008-01-14"
+    },
+    {
+      "name": "Álvaro Colom",
+      "term_start": "2008-01-14",
+      "term_end": "2012-01-14"
+    },
+    {
+      "name": "Otto Pérez Molina",
+      "term_start": "2012-01-14",
+      "term_end": "2015-09-03"
+    },
+    {
+      "name": "Alejandro Maldonado",
+      "term_start": "2015-09-03",
+      "term_end": "2016-01-14"
+    },
+    {
+      "name": "Jimmy Morales",
+      "term_start": "2016-01-14",
+      "term_end": "2020-01-14"
+    },
+    {
+      "name": "Alejandro Giammattei",
+      "term_start": "2020-01-14",
+      "term_end": "2024-01-14"
+    },
+    {
+      "name": "Bernardo Arévalo",
+      "term_start": "2024-01-14",
+      "term_end": "Present"
+    }
+  ]
+}
