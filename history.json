@@ -1,0 +1,40 @@
+{
+  "history": [
+    {
+      "decade": "1990s",
+      "events": [
+        { "year": "1990", "description": "The first internet connections in Guatemala were primarily available through academic and government institutions." },
+        { "year": "1993", "description": "The first commercial ISPs started emerging, providing dial-up internet access." },
+        { "year": "1996", "description": "The General Telecommunications Law was enacted, privatizing the telecommunications sector." },
+        { "year": "1997", "description": "Guatel, the state-owned telecom company, was privatized and later became Telgua." },
+        { "year": "1998", "description": "Telefónica entered the Guatemalan market, offering dial-up internet through Movistar." }
+      ]
+    },
+    {
+      "decade": "2000s",
+      "events": [
+        { "year": "2000", "description": "Telgua was acquired by América Móvil and introduced broadband internet under the Claro brand." },
+        { "year": "2005", "description": "WiMAX technology expanded internet access to rural areas." },
+        { "year": "2006", "description": "Claro became the dominant ISP after merging Telgua’s services." },
+        { "year": "2007", "description": "Cable internet providers like Tigo (Millicom) began expanding broadband services." }
+      ]
+    },
+    {
+      "decade": "2010s",
+      "events": [
+        { "year": "2012", "description": "4G LTE networks were introduced, improving mobile internet speeds." },
+        { "year": "2015", "description": "Several ISPs started offering fiber optic broadband in major cities." },
+        { "year": "2017", "description": "New regulations encouraged competition, leading to lower prices and improved speeds." },
+        { "year": "2019", "description": "América Móvil (Claro) acquired Telefónica Movistar in Guatemala." }
+      ]
+    },
+    {
+      "decade": "2020s",
+      "events": [
+        { "year": "2020", "description": "COVID-19 pandemic increased demand for internet services, expanding coverage." },
+        { "year": "2021", "description": "The first satellite internet services, including Starlink, were introduced." },
+        { "year": "2023-2024", "description": "Companies like Kingo started providing prepaid solar-powered internet access to rural areas." }
+      ]
+    }
+  ]
+}
