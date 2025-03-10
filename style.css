@@ -6,21 +6,17 @@
 }
 
 /* Body and Background */
-body {
-background: linear-gradient(
-    #4997D0 33.33%,
-    #FFFFFF 33.33%,
-    #4997D0 33.33%);
-  line-height: 1.6;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  position: relative;
+.background-image {
+    background-image: url('.desktop/CM1040/flag.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;  /* Set the height of the image (100% of the viewport height) */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;  /* Ensure the image stays behind the content */
 }
-
 /* Center Heading and Paragraphs */
 h1, p {
   text-align: center;       /* Horizontally centers the text */
