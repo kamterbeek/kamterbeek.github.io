@@ -15,6 +15,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0.75;
     z-index: -1;  /* Ensure the image stays behind the content */
 }
 /* Center Heading and Paragraphs */
