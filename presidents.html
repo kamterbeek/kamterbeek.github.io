@@ -15,7 +15,7 @@
             <li><a href="presidents.html">Presidents</a></li>
     <h1>Guatemalan Presidents</h1>
     <ul id="presidents"></ul> <!-- Fixed ID here -->
-
+<p>
     <script>
         fetch('https://kamterbeek.github.io/presidents.json') // Ensure this URL is correct
             .then(response => {
@@ -34,5 +34,6 @@
             })
             .catch(error => console.error('Error fetching JSON:', error));
     </script>
+</p>
 </body>
 </html>
