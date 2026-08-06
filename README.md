@@ -1,2 +1,2 @@
 # kamterbeek.github.io
-U of L and CU Boulder Capstone Project
+U of London and CU Boulder combined Capstone Project
