@@ -1,3 +1,2 @@
 # kamterbeek.github.io
-CM1040 Final project
-History of Internet and Technology in Guatemala focusing on Quetzaltenango
+U of L and CU Boulder Capstone Project
