@@ -7,4 +7,4 @@ Tech stack:
 - Postgres
 - Javascript for front end
 - Python for back end
-- JSON for data gathering
+- JSON for data 
