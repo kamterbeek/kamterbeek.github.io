@@ -1,14 +1,14 @@
 {
   "Cardinal": [
     {
-      "direction": "West",
+      "direction": "North",
       "title": "",
       "description": ""
     },
     {
-      "year": "1997",
-      "title": "First ISP",
-      "description": "The first commercial internet service provider (ISP), Tigo, was launched, expanding internet access to the public."
+      "year": "East",
+      "title": "",
+      "description": ""
     }
   ]
 }
