@@ -7,4 +7,5 @@ Tech stack:
 - Postgres
 - Javascript for front end
 - Python for back end
-- JSON for data 
+- JSON for data
+- dbt Labs
