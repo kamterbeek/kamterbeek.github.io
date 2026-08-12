@@ -11,11 +11,10 @@
     {
       "decade": "1950s",
       "events": [
-        { "year": "2000", "description": "Telgua was acquired by América Móvil and introduced broadband internet under the Claro brand." },
-        { "year": "2005", "description": "WiMAX technology expanded internet access to rural areas." },
-        { "year": "2006", "description": "Claro became the dominant ISP after merging Telgua’s services." },
-        { "year": "2007", "description": "Cable internet providers like Tigo (Millicom) began expanding broadband services." }
-      ]
+        { "year": "", "description": "Telgua was acquired by América Móvil and introduced broadband internet under the Claro brand." },
+        { "year": "", "description": "WiMAX technology expanded internet access to rural areas." },
+        { "year": "27", "description": "Cable internet providers like Tigo (Millicom) began expanding broadband services." }
+    
     },
     {
       "decade": "2010s",
