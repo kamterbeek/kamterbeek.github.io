@@ -1,13 +1,11 @@
 {
   "history": [
     {
-      "decade": "1990s",
+      "decade": "1900s",
       "events": [
-        { "year": "1990", "description": "The first internet connections in Guatemala were primarily available through academic and government institutions." },
-        { "year": "1993", "description": "The first commercial ISPs started emerging, providing dial-up internet access." },
-        { "year": "1996", "description": "The General Telecommunications Law was enacted, privatizing the telecommunications sector." },
-        { "year": "1997", "description": "Guatel, the state-owned telecom company, was privatized and later became Telgua." },
-        { "year": "1998", "description": "Telefónica entered the Guatemalan market, offering dial-up internet through Movistar." }
+        { "year": "1900", "description": "" },
+        { "year": "1903", "description": "" },
+        { "year": "1909", "description": "" }
       ]
     },
     {
