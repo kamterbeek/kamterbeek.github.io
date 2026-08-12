@@ -5,11 +5,11 @@
       "events": [
         { "year": "1900", "description": "" },
         { "year": "1903", "description": "" },
-        { "year": "1909", "description": "" }
+        { "year": "1910", "description": "" }
       ]
     },
     {
-      "decade": "2000s",
+      "decade": "1950s",
       "events": [
         { "year": "2000", "description": "Telgua was acquired by América Móvil and introduced broadband internet under the Claro brand." },
         { "year": "2005", "description": "WiMAX technology expanded internet access to rural areas." },
