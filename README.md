@@ -1,7 +1,7 @@
 # kamterbeek.github.io
 University of London and University of Colorado combined Capstone Project
 
-This project is to combine both requisites for environmental and computer science degrees
+This project is to combine both requisites for computer science (University of London) and environmental studies (University of Colorado) degrees. 
 
 Tech stack:
 - Postgres
