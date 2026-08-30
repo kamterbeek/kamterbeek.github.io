@@ -10,4 +10,4 @@ Tech stack:
 - JSON for data
 - dbt Labs
 - Apache
-- 
+- FastAPI
