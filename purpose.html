@@ -29,7 +29,7 @@
     </main>
 
     <script>
-        fetch('https://kamterbeek.github.io/history.json')
+   //     fetch('https://kamterbeek.github.io/history.json')
             .then(response => response.json())
             .then(data => {
                 const container = document.getElementById('history-container');
@@ -52,7 +52,7 @@
                     container.appendChild(decadeDiv);
                 });
             })
-            .catch(error => console.error('Error fetching JSON:', error));
+            .catch(error => console.error('Error fetching JSON:', error)); 
     </script>
 </body>
     <footer>CM1040 Final project </footer>
