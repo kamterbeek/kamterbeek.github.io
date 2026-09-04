@@ -11,4 +11,5 @@ Tech stack:
 - dbt Labs
 - Apache
 - FastAPI
-- 
+
+This site is created as a place where I can 
