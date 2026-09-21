@@ -1,0 +1,22 @@
+{
+  "Cardinal": [
+    {
+      "direction": "North",
+      "title": "",
+      "description": ""
+    },
+    {
+      "direction": "East",
+      "title": "",
+      "description": ""
+    },
+    {"direction": "South",
+      "title": "",
+      "description": ""
+    },
+    {"direction": "West",
+      "title": "",
+      "description": ""
+    }
+  ]
+}

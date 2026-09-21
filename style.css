@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body and Background */
+.background-image {
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    height: 100vh;  /* Set the height of the image (100% of the viewport height) */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.75;
+    z-index: -1;  /* Ensure the image stays behind the content */
+}
+/* Center Heading and Paragraphs */
+h1, p {
+  text-align: center;       /* Horizontally centers the text */
+  margin: 10px 0;           /* Adds some space around the text */
+}
+
+.purpose-page h1 {
+  color: darkgreen;
+  font-size: 40px;
+}
+
+.purpose-page p {
+  color: #333;
+  font-size: 18px;
+  max-width: 700px;
+  margin: 20px auto;
+}

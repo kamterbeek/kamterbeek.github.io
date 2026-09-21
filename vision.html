@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Vision</title>
+       <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="background-image"></div>
+     <li><a href="index.html">Home</a></li>
+            <li><a href=".html">HOLD</a></li>
+            <li><a href=".html">HOLD</a></li>
+            <li><a href=".html">HOLD</a></li>
+            <li><a href=".html">HOLD</a></li>
+    <h1>Project Vision</h1>
+<p>
+    <!-->
+    <script>
+        fetch('https://kamterbeek.github.io/zones.json') // Ensure this URL is correct
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const list = document.getElementById('presidents'); // Fixed ID reference
+                data.presidents.forEach(president => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${president.name} (${president.term_start} - ${president.term_end})`;
+                    list.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    </script>
+    -->
+</p>
+</body>
+</html>
