@@ -12,4 +12,4 @@ Tech stack:
 - Apache
 - FastAPI
 
-This site is created as a place where I can display my final project for both degrees. 
+This site is created as a place where I can display my final project for both degrees
