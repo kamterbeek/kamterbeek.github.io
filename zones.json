@@ -1,8 +1,9 @@
 {
   "Garden Zones": [
-    {
+    {zone: " ",
     },
-    {
+    {zone:,
+     name: " "
     }
   ]
 }
