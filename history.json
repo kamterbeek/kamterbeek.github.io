@@ -1,7 +1,12 @@
 {"History":
-  [{title: "The beginning",
+  [
+    {title: "The beginning",
     year: 1908,
     story: "This is when we started learning"
   }
+    {title: "The Start",
+    year: 1915,
+    story: "we started strudying more"
+    }
   ]
 }
